@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="width=device-width, initial-scale=1.0">
+		<title>Rotating Clock</title>
+		<style>
+			body
+			{
+				background-color: black;
+				color: white;
+			}
+			#canvas-clock
+			{
+				display: block;
+				margin: auto;
+			}
+			.options{text-align: center;}
+			input[type="button"]
+			{
+				padding: 5px 30px;
+				border: 2px solid white;
+				background-color: black;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas-clock"></canvas>
+		<div class = "options">
+			<input type = "button" id="num-button" onclick="toggleNum()" value = "">
+			<input type = "button" id="invert-button" onclick="toggleInvert()" value = "">
+			<input type = "button" id="smooth-button" onclick="toggleSmooth()" value = "">
+			<input type = "button" id="24h-button" onclick="toggle24Hour()" value = "">
+		</div>
+		<script src="rotary_clock.js"></script>
+	</body>
+</html>
