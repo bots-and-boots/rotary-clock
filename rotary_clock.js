@@ -4,7 +4,7 @@
 const canvas = document.getElementById("canvas-clock");
 const ctx = canvas.getContext('2d');
 
-let fps = 20;
+let fps = 30;
 let timeStart = 0;
 let frameCounter = 0;
 
