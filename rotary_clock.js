@@ -1,5 +1,3 @@
-//this source code was written by bots-and-boots
-//reddit: u/TheBackOfTheMeme
 //please excuse the lack of comments
 const canvas = document.getElementById("canvas-clock");
 const ctx = canvas.getContext('2d');
